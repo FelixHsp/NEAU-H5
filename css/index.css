@@ -1,0 +1,142 @@
+
+.carousel{
+    margin-bottom: 20px;
+
+}
+#mark{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: 1031;
+    display: block;
+    background: white;
+    /*position: relative;*/
+    /*text-align: center;*/
+}
+.mark-out{
+    animation:run 2s linear ;
+}
+@keyframes run {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+#mark img{
+    width: 100%;
+    top: 50%;
+    position: absolute;
+    transform: translate(0,-50%);
+    /*height: 100%;*/
+}
+.carousel img{
+    width: 100%;
+    height: auto;
+}
+
+#container-learn .col-md-4{
+    text-align: center;
+}
+hr.divider{
+    margin: 40px 0;
+}
+
+#container-learnmore .title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#container-learnmore .text{
+    margin-bottom: 20px;
+}
+#imgwrapper .col-xs-4{
+    position: relative;
+}
+#imgwrapper .col-xs-4 img{
+    position: absolute;
+    float: left;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#imgwrapper .col-xs-4 span{
+    position: relative;
+    top: 60px;
+}
+#imgwrapper{
+    font-size: 12px;
+    text-align: center;
+    color: #5e5e5e;
+    margin-bottom: 20px;
+}
+#words{
+    margin-top: 40px;
+    text-align: center;
+    height: 50px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #999;
+}
+#container-learn{
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+
+#container-learn .row{
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+}
+#container-learn li{
+    height: 55px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#container-learn span{
+    background:#d9534f;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    text-align: center;
+}
+#container-learn .btn{
+    background: white;
+    width: 100px;
+    color: #d9534f;
+    border-radius: 5px;
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#container-learn p{
+    height: 43px;
+}
+.selected{
+    background:#d9534f;
+    color: white;
+    border-radius: 0;
+}
+@keyframes go {
+    0%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.icon-selected{
+    color: white;
+    animation: go 0.5s linear;
+}
+#xinwen,#light,#xuexiao{
+    font-size: 25px;
+}
+
