@@ -25,3 +25,9 @@ h3{
 .container .vid{
     width: 100%;
 }
+#wenzhang{
+    position: relative;
+    background-image: url("../imgs/qcbj.jpg");
+    color: #FAFAD2;
+    height: 1200px;
+}
