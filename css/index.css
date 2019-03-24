@@ -75,12 +75,13 @@ hr.divider{
     margin-bottom: 20px;
 }
 #words{
-    margin-top: 40px;
+    margin-top: 30px;
     text-align: center;
     height: 50px;
     font-size: 18px;
     line-height: 25px;
     color: #999;
+    margin-bottom: 50px;
 }
 #container-learn{
     margin-top: 30px;
